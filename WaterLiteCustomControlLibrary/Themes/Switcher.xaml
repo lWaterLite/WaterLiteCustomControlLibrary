@@ -3,7 +3,7 @@
                     xmlns:local="clr-namespace:WaterLiteCustomControlLibrary">
     
     <ResourceDictionary.MergedDictionaries>
-        <ResourceDictionary Source="GlobalBrush.xaml" />
+        <ResourceDictionary Source="/WaterLiteCustomControlLibrary;component/Themes/GlobalBrush.xaml" />
     </ResourceDictionary.MergedDictionaries>
     
     <local:HeightToCornerRadiusConverter x:Key="HeightToCornerRadiusConverter" />
