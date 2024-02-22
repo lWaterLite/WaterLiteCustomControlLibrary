@@ -32,5 +32,14 @@ public class IconButton: Button
         set => SetValue(MouseOverForegroundProperty, value);
     }
 
+    public static readonly DependencyProperty CornerRadiusProperty = DependencyProperty.Register(
+        nameof(CornerRadius), typeof(CornerRadius), typeof(IconButton), new PropertyMetadata(default(CornerRadius)));
+
+    public CornerRadius CornerRadius
+    {
+        get => (CornerRadius)GetValue(CornerRadiusProperty);
+        set => SetValue(CornerRadiusProperty, value);
+    }
+
     #endregion
 }
